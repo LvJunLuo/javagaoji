@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BlockingQueueDemo/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/BlockingQueueDemo/BlockingQueueDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CallableDemo/CallableDemo.iml" filepath="$PROJECT_DIR$/CallableDemo/CallableDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConutDownLatchDemo/ConutDownLatchDemo.iml" filepath="$PROJECT_DIR$/ConutDownLatchDemo/ConutDownLatchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyThreadPoolDemo/MyThreadPoolDemo.iml" filepath="$PROJECT_DIR$/MyThreadPoolDemo/MyThreadPoolDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadWriteLockDemo/ReadWriteLockDemo.iml" filepath="$PROJECT_DIR$/ReadWriteLockDemo/ReadWriteLockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadOrderAccess/ThreadOrderAccess.iml" filepath="$PROJECT_DIR$/ThreadOrderAccess/ThreadOrderAccess.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_shoupiao/java_shoupiao.iml" filepath="$PROJECT_DIR$/java_shoupiao/java_shoupiao.iml" />

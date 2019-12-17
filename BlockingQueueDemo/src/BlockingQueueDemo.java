@@ -1,4 +1,7 @@
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.SynchronousQueue;
 
 /*
 *
@@ -16,5 +19,72 @@ import java.util.concurrent.BlockingQueue;
 
 * */
 public class BlockingQueueDemo {
+    public static void main(String[] args) throws InterruptedException {
+        //有数据结构组成的有界阻塞对列
+        BlockingQueue<String> arrayblockingQueuem = new ArrayBlockingQueue(3);
+        //链表结构组成的有界阻塞对列（但是大小默认是integer.MAX_VALUE）
+        BlockingQueue blockingQueue1 = new LinkedBlockingDeque(3);
+        //单个元素队列(不存元素队列)
+        BlockingQueue blockingQueue = new SynchronousQueue();
 
+        //阻塞对列的方法类型 插入，移除，检查
+        // 对方法的分类 抛出异常，特殊值，阻塞
+        // 抛出异常的方法
+/*
+        arrayblockingQueuem.add("a");
+        arrayblockingQueuem.add("b");
+        arrayblockingQueuem.add("c");
+       // arrayblockingQueuem.add("a");
+
+        arrayblockingQueuem.remove();
+       // arrayblockingQueuem.remove();
+        //arrayblockingQueuem.remove();
+        //arrayblockingQueuem.remove();
+
+        Object element = arrayblockingQueuem.element();
+        System.out.println("****************"+element);*/
+
+        /*
+            2.特殊值的方法
+
+         */
+       /* boolean a = arrayblockingQueuem.offer("shijunwei");
+        boolean b = arrayblockingQueuem.offer("b");
+        boolean c = arrayblockingQueuem.offer("c");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println("****************");
+        boolean d = arrayblockingQueuem.offer("d");
+        System.out.println(d);
+        System.out.println("***************************************************************************");
+       *//* Object poll = arrayblockingQueuem.poll();
+        Object poll1 = arrayblockingQueuem.poll();
+        Object poll2 = arrayblockingQueuem.poll();
+        Object poll3 = arrayblockingQueuem.poll();
+        System.out.println(poll);
+        System.out.println(poll1);
+        System.out.println(poll2);*//*
+        System.out.println("****************");
+        //System.out.println(poll3);
+        System.out.println(arrayblockingQueuem.peek());
+*/
+        /*
+            3.阻塞
+         */
+
+        arrayblockingQueuem.put("shijunwei");
+        arrayblockingQueuem.put("shijunwei");
+        arrayblockingQueuem.put("shijunwei");
+
+        arrayblockingQueuem.take();
+        arrayblockingQueuem.take();
+        arrayblockingQueuem.take();
+        System.out.println("****************");
+        //arrayblockingQueuem.put("shijunwei");
+        //arrayblockingQueuem.take();
+        System.out.println("12121121212121221112");
+
+
+    }
 }

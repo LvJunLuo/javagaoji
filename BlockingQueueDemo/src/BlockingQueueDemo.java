@@ -80,10 +80,10 @@ public class BlockingQueueDemo {
         arrayblockingQueuem.take();
         arrayblockingQueuem.take();
         arrayblockingQueuem.take();
-        System.out.println("****************");
+        System.out.println("11111111111111111111111");
         //arrayblockingQueuem.put("shijunwei");
         //arrayblockingQueuem.take();
-        System.out.println("12121121212121221112");
+        System.out.println("2222222222222222222222");
 
 
     }

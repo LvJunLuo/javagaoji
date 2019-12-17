@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlockingQueueDemo/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/BlockingQueueDemo/BlockingQueueDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CallableDemo/CallableDemo.iml" filepath="$PROJECT_DIR$/CallableDemo/CallableDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConutDownLatchDemo/ConutDownLatchDemo.iml" filepath="$PROJECT_DIR$/ConutDownLatchDemo/ConutDownLatchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadWriteLockDemo/ReadWriteLockDemo.iml" filepath="$PROJECT_DIR$/ReadWriteLockDemo/ReadWriteLockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadOrderAccess/ThreadOrderAccess.iml" filepath="$PROJECT_DIR$/ThreadOrderAccess/ThreadOrderAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_shoupiao/java_shoupiao.iml" filepath="$PROJECT_DIR$/java_shoupiao/java_shoupiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shenchang/shenchang.iml" filepath="$PROJECT_DIR$/shenchang/shenchang.iml" />
+    </modules>
+  </component>
+</project>
